@@ -22,11 +22,11 @@ npm install
 
 #### Update `.env.local`:
 ```
-SMTP_HOST=smtp.gmail.com
-SMTP_PORT=465
-SMTP_USER=your_gmail@gmail.com
-SMTP_PASS=your_16_char_app_password
-RECEIVER_EMAIL=mathusenthan@gmail.com
+SMTP_HOST=
+SMTP_PORT=
+SMTP_USER=
+SMTP_PASS=
+RECEIVER_EMAIL=
 ```
 
 ⚠️ **IMPORTANT:** Never commit `.env.local` to GitHub!
@@ -76,11 +76,11 @@ git push -u origin main
 2. Sign in with GitHub
 3. Click **New Project** and select your repository
 4. In **Environment Variables**, add:
-   - `SMTP_HOST=smtp.gmail.com`
-   - `SMTP_PORT=465`
-   - `SMTP_USER=your_gmail@gmail.com`
-   - `SMTP_PASS=your_app_password`
-   - `RECEIVER_EMAIL=mathusenthan@gmail.com`
+   - `SMTP_HOST=`
+   - `SMTP_PORT=`
+   - `SMTP_USER=`
+   - `SMTP_PASS=`
+   - `RECEIVER_EMAIL=`
 5. Deploy!
 
 ## Security Notes
